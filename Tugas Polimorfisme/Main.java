@@ -55,7 +55,7 @@ public class Main {
         System.out.println("====" + "- Sales -" + "====");
     
         for(int i = 0; i < sales.length; i++) {
-            System.out.println("Sales\t: " + sales[i].getName());
+            System.out.println("Sales\t\t: " + sales[i].getName());
             System.out.println("No. KTP\t\t: " + sales[i].getNoKTP());
             System.out.println("Total Penjualan\t: " + sales[i].getPenjualan());
             System.out.println("Besaran Komisi\t: " + sales[i].getKomisi());
