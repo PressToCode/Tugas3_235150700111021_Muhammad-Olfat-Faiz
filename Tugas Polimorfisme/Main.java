@@ -22,8 +22,7 @@ public class Main {
         System.out.println("====" + "- Pegawai Tetap -" + "====");
 
         for(int i = 0; i < pegawaiTetap.length; i++) {
-            System.out.println("Pegawai Tetap\t: " + pegawaiTetap[i].getName());
-            System.out.println("No. KTP\t\t: " + pegawaiTetap[i].getNoKTP());
+            System.out.println("Pegawai Tetap\t: " + pegawaiTetap[i]);
             System.out.println("Upah\t\t: " + pegawaiTetap[i].getUpah());
             System.out.println("Pendapatan\t: Rp " + pegawaiTetap[i].gaji());
 
@@ -38,8 +37,7 @@ public class Main {
         System.out.println("====" + "- Pegawai Harian -" + "====");
     
         for(int i = 0; i < pegawaiHarian.length; i++) {
-            System.out.println("Pegawai Harian\t: " + pegawaiHarian[i].getName());
-            System.out.println("No. KTP\t\t: " + pegawaiHarian[i].getNoKTP());
+            System.out.println("Pegawai Harian\t: " + pegawaiHarian[i]);
             System.out.println("Upah/jam\t: " + pegawaiHarian[i].getUpahPerJam());
             System.out.println("Total Jam Kerja\t: " + pegawaiHarian[i].getTotalJam());
             System.out.println("Pendapatan\t: Rp " + pegawaiHarian[i].gaji());
@@ -55,8 +53,7 @@ public class Main {
         System.out.println("====" + "- Sales -" + "====");
     
         for(int i = 0; i < sales.length; i++) {
-            System.out.println("Sales\t\t: " + sales[i].getName());
-            System.out.println("No. KTP\t\t: " + sales[i].getNoKTP());
+            System.out.println("Sales\t\t: " + sales[i]);
             System.out.println("Total Penjualan\t: " + sales[i].getPenjualan());
             System.out.println("Besaran Komisi\t: " + sales[i].getKomisi());
             System.out.println("Pendapatan\t: Rp " + sales[i].gaji());
