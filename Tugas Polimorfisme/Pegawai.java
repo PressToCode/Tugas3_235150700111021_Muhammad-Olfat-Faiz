@@ -19,7 +19,7 @@ public abstract class Pegawai {
     }
 
     public String toString(){
-        return String.format(" "+getName()+"\nNo. KTP: "+getNoKTP());
+        return String.format(getName()+"\nNo. KTP\t\t: "+getNoKTP());
     }
     
     // * Polimorphism
